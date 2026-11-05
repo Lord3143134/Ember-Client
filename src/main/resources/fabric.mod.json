@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ember",
+  "version": "${version}",
+  "name": "Ember Client",
+  "description": "Singleplayer utility client with a code-locked hidden menu.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.ember.client.EmberClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
